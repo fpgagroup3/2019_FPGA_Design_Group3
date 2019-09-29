@@ -24,4 +24,4 @@ E24056483 謝明穎
 ![test1](image/result.png)
 ## 模擬波形圖
 ### 測試檔1
-![waveform1](image/waveform.PNG)
+![waveform1](image/waveform.png)
