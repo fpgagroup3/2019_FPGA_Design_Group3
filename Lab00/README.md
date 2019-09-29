@@ -21,17 +21,7 @@ E24056483 謝明穎
 
 ## 模擬結果圖
 ### 測試檔1
-![test1](image/5.PNG)
-### 測試檔2
-![test2](image/10.PNG)
+![test1](image/result.png)
 ## 模擬波形圖
 ### 測試檔1
-![test1_1](image/1.PNG)
-![test1_2](image/2.PNG)
-![test1_3](image/3.PNG)
-![test1_4](image/4.PNG)
-### 測試檔2
-![test2_1](image/6.PNG)
-![test2_2](image/7.PNG)
-![test2_3](image/8.PNG)
-![test2_4](image/9.PNG)
+![waveform1](image/waveform.PNG)
