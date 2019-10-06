@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/FPGA/LAB01_HW/LAB01_HW.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/LED.v,1564367752,verilog,,D:/GitHub/2019_FPGA_Design/Lab01/src/divider.v,,LED_rgb,,,,,,,,
+D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/state.v,1564467214,verilog,,D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/top.v,,state_FSM,,,,,,,,
+D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/top.v,1564467434,verilog,,,,top,,,,,,,,
+D:/GitHub/2019_FPGA_Design/Lab01/src/divider.v,1564368629,verilog,,D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/state.v,,divider,,,,,,,,

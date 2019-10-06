@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/LED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_rgb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/2019_FPGA_Design/Lab01/src/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/state.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/LAB01_HW/LAB01_HW.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/LAB01_HW/LAB01_HW.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

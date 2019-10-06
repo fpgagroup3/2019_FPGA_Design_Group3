@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB01_HW.srcs/sources_1/new/LED.v" \
+"../../../../../../GitHub/2019_FPGA_Design/Lab01/src/divider.v" \
+"../../../../LAB01_HW.srcs/sources_1/new/state.v" \
+"../../../../LAB01_HW.srcs/sources_1/new/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
