@@ -18,6 +18,7 @@ E24056483 謝明穎
 系統設計圖
 ---
 ![](https://i.imgur.com/YFmLVos.png)
+![](https://i.imgur.com/OZDmVuH.png)
 
 測試結果
 ---
