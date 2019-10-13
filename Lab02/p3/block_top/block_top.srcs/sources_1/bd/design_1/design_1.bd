@@ -1,0 +1,161 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x25A2D104EBF21527",
+      "device": "xc7z020clg400-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "divider_0": "",
+      "RGB_LED_b_0": "",
+      "state_a_0": ""
+    },
+    "ports": {
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "led4_r": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "led4_g": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "led4_b": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "divider_0": {
+        "vlnv": "xilinx.com:user:divider:1.0",
+        "xci_name": "design_1_divider_0_0"
+      },
+      "RGB_LED_b_0": {
+        "vlnv": "xilinx.com:user:RGB_LED_b:1.0",
+        "xci_name": "design_1_RGB_LED_b_0_0"
+      },
+      "state_a_0": {
+        "vlnv": "xilinx.com:user:state_a:1.0",
+        "xci_name": "design_1_state_a_0_0"
+      }
+    },
+    "nets": {
+      "divider_0_clk_div": {
+        "ports": [
+          "divider_0/clk_div",
+          "state_a_0/clk_div"
+        ]
+      },
+      "state_a_0_R_time_in": {
+        "ports": [
+          "state_a_0/R_time_in",
+          "RGB_LED_b_0/R_time_in"
+        ]
+      },
+      "state_a_0_G_time_in": {
+        "ports": [
+          "state_a_0/G_time_in",
+          "RGB_LED_b_0/G_time_in"
+        ]
+      },
+      "state_a_0_B_time_in": {
+        "ports": [
+          "state_a_0/B_time_in",
+          "RGB_LED_b_0/B_time_in"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "divider_0/clk",
+          "RGB_LED_b_0/clk"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "divider_0/rst",
+          "state_a_0/rst",
+          "RGB_LED_b_0/rst"
+        ]
+      },
+      "RGB_LED_b_0_R_out": {
+        "ports": [
+          "RGB_LED_b_0/R_out",
+          "led4_r"
+        ]
+      },
+      "RGB_LED_b_0_B_out": {
+        "ports": [
+          "RGB_LED_b_0/B_out",
+          "led4_b"
+        ]
+      },
+      "RGB_LED_b_0_G_out": {
+        "ports": [
+          "RGB_LED_b_0/G_out",
+          "led4_g"
+        ]
+      }
+    }
+  }
+}

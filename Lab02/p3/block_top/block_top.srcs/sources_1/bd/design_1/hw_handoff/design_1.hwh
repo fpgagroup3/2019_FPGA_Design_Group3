@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Aug  5 19:55:00 2019" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="divider_0" PORT="rst"/>
+        <CONNECTION INSTANCE="state_a_0" PORT="rst"/>
+        <CONNECTION INSTANCE="RGB_LED_b_0" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="divider_0" PORT="clk"/>
+        <CONNECTION INSTANCE="RGB_LED_b_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led4_r" SIGIS="data" SIGNAME="RGB_LED_b_0_R_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="RGB_LED_b_0" PORT="R_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led4_g" SIGIS="data" SIGNAME="RGB_LED_b_0_G_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="RGB_LED_b_0" PORT="G_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="led4_b" SIGIS="data" SIGNAME="RGB_LED_b_0_B_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="RGB_LED_b_0" PORT="B_out"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="3" FULLNAME="/RGB_LED_b_0" HWVERSION="1.0" INSTANCE="RGB_LED_b_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="RGB_LED_b" VLNV="xilinx.com:user:RGB_LED_b:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_RGB_LED_b_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="R_time_in" RIGHT="0" SIGIS="undef" SIGNAME="state_a_0_R_time_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="state_a_0" PORT="R_time_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="G_time_in" RIGHT="0" SIGIS="undef" SIGNAME="state_a_0_G_time_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="state_a_0" PORT="G_time_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="B_time_in" RIGHT="0" SIGIS="undef" SIGNAME="state_a_0_B_time_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="state_a_0" PORT="B_time_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="R_out" SIGIS="undef" SIGNAME="RGB_LED_b_0_R_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led4_r"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="G_out" SIGIS="undef" SIGNAME="RGB_LED_b_0_G_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led4_g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="B_out" SIGIS="undef" SIGNAME="RGB_LED_b_0_B_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led4_b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/divider_0" HWVERSION="1.0" INSTANCE="divider_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="divider" VLNV="xilinx.com:user:divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_divider_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_div" SIGIS="undef" SIGNAME="divider_0_clk_div">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="state_a_0" PORT="clk_div"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/state_a_0" HWVERSION="1.0" INSTANCE="state_a_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="state_a" VLNV="xilinx.com:user:state_a:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_state_a_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk_div" SIGIS="undef" SIGNAME="divider_0_clk_div">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="divider_0" PORT="clk_div"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="R_time_in" RIGHT="0" SIGIS="undef" SIGNAME="state_a_0_R_time_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="RGB_LED_b_0" PORT="R_time_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="G_time_in" RIGHT="0" SIGIS="undef" SIGNAME="state_a_0_G_time_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="RGB_LED_b_0" PORT="G_time_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="B_time_in" RIGHT="0" SIGIS="undef" SIGNAME="state_a_0_B_time_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="RGB_LED_b_0" PORT="B_time_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
