@@ -1,0 +1,17 @@
+/*
+ * sorting.c
+ *
+ *  Created on: 2019¦~10¤ë20¤é
+ *      Author: xb2m8
+ */
+
+#include "xil_printf.h"
+
+#include <stdio.h>
+
+int main(){
+	int i;
+	xil_printf("please input: \r\n");
+    scanf("%d",&i);
+	xil_printf("%d ", i);
+}

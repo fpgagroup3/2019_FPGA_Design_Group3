@@ -1,0 +1,26 @@
+/*
+ * sorting.c
+ *
+ *  Created on: 2019¦~10¤ë20¤é
+ *      Author: xb2m8
+ */
+
+#include "xil_printf.h"
+#include <stdio.h>
+
+int main(){
+	 int input[20];
+	 int i,j;
+
+	 xil_printf("Please input 20 numbers:\r\n");
+	 for(i=0; i<20; i++){
+		xil_printf("\r\n");
+		if(i == 0)xil_printf("1st number:\r\n") ;
+		else if(i == 1)xil_printf("2nd number:\r\n");
+		else if(i == 2)xil_printf("3rd number:\r\n");
+		else xil_printf("%dth number:\r\n",i+1);
+	    scanf("%d",&input[i]);
+	    xil_printf("Numbers you have entered:\r\n");
+	    for(j = 0; j<i+1; j++)xil_printf("%d ",input[j]);
+	 }
+}

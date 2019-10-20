@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Oct 20 16:21:33 2019
+# Process ID: 14500
+# Current directory: C:/Users/xb2m8/Desktop/2019_FPGA_Design_Group3/Lab03/Hash_func/Hash_func.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/xb2m8/Desktop/2019_FPGA_Design_Group3/Lab03/Hash_func/Hash_func.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/xb2m8/Desktop/2019_FPGA_Design_Group3/Lab03/Hash_func/Hash_func.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

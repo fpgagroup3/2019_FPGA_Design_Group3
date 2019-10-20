@@ -1,0 +1,23 @@
+21:54:56 **** Auto Build of configuration Debug for project RGB ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/RGB.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RGB.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../RGB_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/RGB.d" -MT"src/RGB.o" -o "src/RGB.o" "../src/RGB.c"
+'Finished building: ../src/RGB.c'
+' '
+'Building target: RGB.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../RGB_bsp/ps7_cortexa9_0/lib -o "RGB.elf"  ./src/RGB.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: RGB.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size RGB.elf  |tee "RGB.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23984	   1200	  22632	  47816	   bac8	RGB.elf
+'Finished building: RGB.elf.size'
+' '
+
+21:55:04 Build Finished (took 8s.712ms)
+
