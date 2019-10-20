@@ -35,7 +35,7 @@ Porgram 2 : Hash Function
 (有額外利用for迴圈造成延遲來避免切換按鈕中間訊號輸入的灰色地帶)
 
 ## 結果
-![](./png/hash.png)
+![](./png/hash.PNG)
 
 Program 3 : Sorting
 --
@@ -43,5 +43,5 @@ Program 3 : Sorting
 利用 Quick Sort來排序
 
 ## 結果
-![](./png/sort1.png)
-![](./png/sort2.png)
+![](./png/sort1.PNG)
+![](./png/sort2.PNG)
