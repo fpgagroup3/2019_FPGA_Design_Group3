@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "pwm.h"
+
+int main(){
+	u32 rate;
+	while(1){
+		printf("Program start!\n\r");
+		printf("Enter red level:");
+		scanf("%d", &rate);
+		pwm_set(XPAR_PWM_0_S00_AXI_BASEADDR, rate);
+	}
+	return 0;
+}

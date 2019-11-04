@@ -1,0 +1,195 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Oct 25 21:51:23 2019
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 32
++-----------+----------+-----------------------+------------+
+| Rule      | Severity | Description           | Violations |
++-----------+----------+-----------------------+------------+
+| TIMING-16 | Warning  | Large setup violation | 32         |
++-----------+----------+-----------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -10.768 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[26]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -13.304 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[25]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -15.748 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[24]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -18.882 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -21.754 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -25.013 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -28.092 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -29.233 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -32.589 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -34.429 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -37.525 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -39.635 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -4.391 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[4]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[30]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -4.671 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[4]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[29]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -4.903 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[4]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[31]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -41.866 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -44.791 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -47.937 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -49.842 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -5.298 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[28]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -52.548 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -55.169 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -57.470 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -60.166 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -62.786 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -63.755 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -67.829 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -69.330 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -7.741 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[27]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -73.062 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -75.233 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -77.472 ns between design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/slv_reg3_reg[0]/C (clocked by clk_fpga_0) and design_1_i/arithemetic_0/inst/arithemetic_v1_0_S00_AXI_inst/axi_rdata_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+

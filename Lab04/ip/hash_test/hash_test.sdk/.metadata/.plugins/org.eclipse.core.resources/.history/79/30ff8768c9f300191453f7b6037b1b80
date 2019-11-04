@@ -1,0 +1,20 @@
+
+
+/***************************** Include Files *******************************/
+#include "hash.h"
+#include "xil_io.h"
+/************************** Function Definitions ***************************/
+
+
+u32 hash(UINTPTR baseAddr, u32 A){
+	u32 valid, hash;
+	printf("sorting\n\r");
+	SORT_mWriteReg(baseAddr, 0, A);
+	while(1){
+		valid = SORT_mReadReg(baseAddr, 8);
+		printf("vv\n\r", valid);
+		if(valid==1) break;
+	}
+	hash = SORT_mReadReg(baseAddr, 4);
+	return hash;
+}

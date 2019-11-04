@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\FPGA\hash_test\hash_test.runs\design_1_hash_0_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 沒有使用權限

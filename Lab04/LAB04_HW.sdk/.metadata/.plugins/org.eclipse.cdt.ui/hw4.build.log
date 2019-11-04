@@ -1,0 +1,114 @@
+23:51:31 **** Auto Build of configuration Debug for project hw4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+  scanf("%d", &choose);
+         ~^   ~~~~~~~
+         %hhd
+../src/main.c:29:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+    scanf("%d", &in_[i]);
+           ~^   ~~~~~~~
+           %hhd
+../src/main.c:41:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("A = %d\n\r", A);
+               ~^
+               %ld
+../src/main.c:42:7: warning: implicit declaration of function 'sorttt'; did you mean 'strtok'? [-Wimplicit-function-declaration]
+   B = sorttt(XPAR_SORT_0_S00_AXI_BASEADDR, A);
+       ^~~~~~
+       strtok
+../src/main.c:45:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("B = %d\n\r", B);
+               ~^
+               %ld
+../src/main.c:65:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &A);
+           ~^   ~~
+           %ld
+../src/main.c:66:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf(" %d\r\n", A);
+             ~^
+             %ld
+../src/main.c:68:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &B);
+           ~^   ~~
+           %ld
+../src/main.c:69:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf(" %d\r\n", B);
+             ~^
+             %ld
+../src/main.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &operator);
+           ~^   ~~~~~~~~~
+           %ld
+../src/main.c:72:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf(" %d\r\n", operator);
+             ~^
+             %ld
+../src/main.c:74:10: warning: implicit declaration of function 'ari' [-Wimplicit-function-declaration]
+    ans = ari(XPAR_ARITHEMETIC_0_S00_AXI_BASEADDR, A, B, operator);
+          ^~~
+../src/main.c:76:25: warning: format '%d' expects argument of type 'int', but argument 2 has type 's32 {aka long int}' [-Wformat=]
+    printf("Answer is = %d\n\r", ans);
+                        ~^
+                        %ld
+../src/main.c:86:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &s);
+           ~^   ~~
+           %ld
+../src/main.c:87:17: warning: implicit declaration of function 'parity'; did you mean 'print'? [-Wimplicit-function-declaration]
+    parity_bit = parity(XPAR_PARITY_GEN_0_S00_AXI_BASEADDR, s);
+                 ^~~~~~
+                 print
+../src/main.c:89:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("Your num : %d\n\r", s);
+                       ~^
+                       %ld
+../src/main.c:90:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("Parity bit = %d\n\r", parity_bit);
+                         ~^
+                         %ld
+../src/main.c:106:11: warning: implicit declaration of function 'hashhh' [-Wimplicit-function-declaration]
+    hash = hashhh(XPAR_HASH_0_S00_AXI_BASEADDR, hash, c);
+           ^~~~~~
+../src/main.c:109:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+   printf("Encrypted:%d", hash);
+                     ~^
+                     %ld
+../src/main.c:118:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &r_rate);
+           ~^   ~~~~~~~
+           %ld
+../src/main.c:120:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &g_rate);
+           ~^   ~~~~~~~
+           %ld
+../src/main.c:122:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 * {aka long unsigned int *}' [-Wformat=]
+    scanf("%d", &b_rate);
+           ~^   ~~~~~~~
+           %ld
+../src/main.c:129:4: warning: implicit declaration of function 'pwm_set'; did you mean 'memset'? [-Wimplicit-function-declaration]
+    pwm_set(XPAR_PWM_0_S00_AXI_BASEADDR, rate);
+    ^~~~~~~
+    memset
+'Finished building: ../src/main.c'
+' '
+'Building target: hw4.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../hw4_bsp/ps7_cortexa9_0/lib -o "hw4.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw4.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hw4.elf  |tee "hw4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 122140	   2580	  23328	 148048	  24250	hw4.elf
+'Finished building: hw4.elf.size'
+' '
+
+23:51:31 Build Finished (took 727ms)
+

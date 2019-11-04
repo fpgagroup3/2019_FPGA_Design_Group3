@@ -1,0 +1,14 @@
+
+/***************************** Include Files *******************************/
+#include "pwm.h"
+#include "xil_io.h"
+/************************** Function Definitions ***************************/
+
+
+u32 pwm_set(UINTPTR baseAddr, u32 rate) {
+	PWM_mWriteReg(baseAddr, 0, rate);
+	int test;
+	test = PWM_mReadReg(baseAddr, 0);
+	printf("rate now=%d\n", test);
+	return 0;
+}

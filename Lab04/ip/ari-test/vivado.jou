@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Sep 26 19:43:35 2019
+# Process ID: 8744
+# Current directory: D:/FPGA/ari-test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2276 D:\FPGA\ari-test\ari-test.xpr
+# Log file: D:/FPGA/ari-test/vivado.log
+# Journal file: D:/FPGA/ari-test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/ari-test/ari-test.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/FPGA/ari-test/ari-test.sdk -hwspec D:/FPGA/ari-test/ari-test.sdk/design_1_wrapper.hdf

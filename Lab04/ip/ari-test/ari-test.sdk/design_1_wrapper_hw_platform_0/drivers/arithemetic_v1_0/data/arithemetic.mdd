@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER arithemetic
+	OPTION supported_peripherals = (arithemetic);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = arithemetic;
+END DRIVER

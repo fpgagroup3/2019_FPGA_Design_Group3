@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "arithemetic.h"
+#include "hash.h"
+#include "pwm.h"
+#include "parity_gen.h"
+#include "sort.h"
+
+
+int main(){
+	u8 choose;
+	printf("Please choose a program.\n\r");
+	printf("[0]sorting [1]arithemetic [2]parity [3]hash [4]PWM\n\r");
+	printf("Your choice would be:");
+	scanf("%d", &choose);
+	printf("\n\r");
+
+	switch(choose){
+	case 0:
+
+		break;
+	/*****/
+	case 1:
+		u32 A, B, operator;
+		s32 ans;
+		printf("Program Start.\n\r");
+		while(getchar() != EOF) {
+			printf("Input A:");
+			scanf("%d", &A);
+			printf(" %d\r\n", A);
+			printf("Input B:");
+			scanf("%d", &B);
+			printf(" %d\r\n", B);
+			printf("Input operator:");
+			scanf("%d", &operator);
+			printf(" %d\r\n", operator);
+
+			ans = ari(XPAR_ARITHEMETIC_0_S00_AXI_BASEADDR, A, B, operator);
+
+			printf("Answer is = %d\n\r", ans);
+		}
+		break;
+	/*****/
+	case 2:
+
+		break;
+	/*****/
+	case 3:
+
+		break;
+	/*****/
+	case 4:
+
+		break;
+	/*****/
+	default:
+
+		break;
+	}
+	printf("Program End.\n\r");
+    return 0;
+}

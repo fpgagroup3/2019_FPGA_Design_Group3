@@ -1,0 +1,17 @@
+
+
+/***************************** Include Files *******************************/
+#include "hash.h"
+#include "xil_io.h"
+/************************** Function Definitions ***************************/
+u32 hashhh(UINTPTR baseAddr, u32 hash, u32 c){
+	u32 hashed;
+	HASH_mWriteReg(baseAddr, 0, hash);
+	HASH_mWriteReg(baseAddr, 4, c);
+	int a = HASH_mReadReg(baseAddr, 0);
+	int b = HASH_mReadReg(baseAddr, 4);
+	printf("ur:%d+%d\n\r", a, b);
+
+	hashed = HASH_mReadReg(baseAddr, 8);
+	return hashed;
+}

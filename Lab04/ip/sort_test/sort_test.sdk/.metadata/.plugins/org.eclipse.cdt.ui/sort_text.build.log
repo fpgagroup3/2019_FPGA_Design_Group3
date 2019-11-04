@@ -1,0 +1,43 @@
+18:58:25 **** Auto Build of configuration Debug for project sort_text ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sort_text_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:17:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+   scanf("%d", &in_[i]);
+          ~^   ~~~~~~~
+          %hhd
+../src/main.c:29:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("A = %d\n\r", A);
+              ~^
+              %ld
+../src/main.c:30:6: warning: implicit declaration of function 'sorttt'; did you mean 'strtok'? [-Wimplicit-function-declaration]
+  B = sorttt(XPAR_SORT_0_S00_AXI_BASEADDR, A);
+      ^~~~~~
+      strtok
+../src/main.c:35:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("B = %d\n\r", B);
+              ~^
+              %ld
+../src/main.c:38:4: warning: statement with no effect [-Wunused-value]
+   B>>4;
+   ~^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: sort_text.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sort_text_bsp/ps7_cortexa9_0/lib -o "sort_text.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sort_text.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sort_text.elf  |tee "sort_text.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 120456	   2580	  23328	 146364	  23bbc	sort_text.elf
+'Finished building: sort_text.elf.size'
+' '
+
+18:58:26 Build Finished (took 952ms)
+

@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "hash.h"
+
+int main(){
+	u32 in, out;
+	while(1){
+		printf("Program start!\r");
+		printf("\nEnter num:");
+		scanf("%d", &in);
+
+		out = hash(XPAR_HASH_0_S00_AXI_BASEADDR, in);
+
+		printf("Hashed:%d", out);
+	}
+	return 0;
+}
