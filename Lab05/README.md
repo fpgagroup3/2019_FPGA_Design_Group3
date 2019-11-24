@@ -42,6 +42,7 @@ AXI4 IP自動生成的module，因為沒有額外的input output腳位，故沒�
 使用Lab中所提供的ctrl，並將原本的clk_4_f負緣觸發，修改為clk正緣觸發，與controller.v為同步關係，防止dual-port block ram存取衝突發生
 
 * mem32X8.v
+
 將block ram改寫成dual-port，提供兩組讀寫端口，其中bram中記憶體位置分配為：0 ~ 3為第一個矩陣的輸入(由左而右，由上而下)、4 ~ 7為第二個矩陣的輸入(由左而右，由上而下)、
 8 ~ 11為+,-,*,traspose運算結果儲存的地方(由左而右，由上而下)、12以及13存放determinant的值，14為儲存Instrction的指令、15為memory status flag
 
