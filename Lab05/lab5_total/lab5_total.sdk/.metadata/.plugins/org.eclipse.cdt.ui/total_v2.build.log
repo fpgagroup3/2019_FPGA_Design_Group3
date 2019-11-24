@@ -1,0 +1,15 @@
+22:36:11 **** Incremental Build of configuration Debug for project total_v2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/total_v2.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/total_v2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../total_v2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/total_v2.d" -MT"src/total_v2.o" -o "src/total_v2.o" "../src/total_v2.c"
+../src/total_v2.c:10:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/total_v2.o] Error 1
+
+22:36:12 Build Finished (took 717ms)
+

@@ -1,0 +1,235 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Nov 23 22:57:36 2019
+| Host         : DESKTOP-57OA683 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file total_1_wrapper_methodology_drc_routed.rpt -pb total_1_wrapper_methodology_drc_routed.pb -rpx total_1_wrapper_methodology_drc_routed.rpx
+| Design       : total_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 40
++-----------+----------+-------------------+------------+
+| Rule      | Severity | Description       | Violations |
++-----------+----------+-------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch | 40         |
++-----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[0] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[1] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[2] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[3] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[4] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[5] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[6] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[7] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/det_result_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][0] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][1] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][2] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][3] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][4] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][5] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][6] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][7] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[0][7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][0] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][1] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][2] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][3] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][4] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][5] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][6] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][7] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[1][7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][0] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][1] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][2] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][3] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][4] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][5] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][6] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][7] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[2][7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][0] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][1] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][2] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][3] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][4] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][5] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][6] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][7] cannot be properly analyzed as its control pin total_1_i/total_0/inst/total_v1_0_S00_AXI_inst/ctrl1/matrixC_reg[3][7]/G is not reached by a timing clock
+Related violations: <none>
+
+

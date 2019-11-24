@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;total_v3/src/total_v3&apos; to &apos;total_v3.c&apos;" description="Rename resource &apos;total_v3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/total_v3" name="total_v3.c" stamp="1574519669968" updateReferences="true"/>
+</session>
