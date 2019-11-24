@@ -8,7 +8,7 @@ E24056483 謝明穎
 
 ## System Architecture
 
-系統架構圖參考助教所提供的架構圖，如下圖，因此電路並不複雜，故將圖中的controller、interface、processor整合成一個module，並將此module與bram以及bram_ctrl一併包成AXI4 IP
+系統架構圖參考助教所提供的架構圖，如下圖，因為此電路並不複雜，故將圖中的controller、interface、processor整合成一個module，並將此module與bram以及bram_ctrl一併包成AXI4 IP
 
 ![](image/system.png)
 
