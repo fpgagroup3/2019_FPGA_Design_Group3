@@ -30,4 +30,5 @@ b1~4 為 filter 的四個值
 bias 顧名思義
 
 output結果如下圖:
+
 ![](./png/output.PNG)
