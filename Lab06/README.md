@@ -13,6 +13,8 @@ E24056483 謝明穎
 ### IP introduce
 AXI IP 名為 myip_0
 
+卷積運算寫於conv.v
+
 資料皆為純整數(0~7)
 
 卷積器資料與結果由 AXI Register 存取
