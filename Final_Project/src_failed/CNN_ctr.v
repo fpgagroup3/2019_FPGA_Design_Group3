@@ -14,7 +14,7 @@ reg [14*14*16-1:0] top_input;
 reg [14*14*16-1:0] top_input_r;
 wire [1:0] top_output;
 reg [1:0] c_state, n_state;
-reg [2:0] times;
+reg [7:0] times;
 reg timer_start;
 
 parameter s0 = 3'd0, // idle
@@ -55,7 +55,7 @@ begin
 		end
 		s2:
 		begin
-			if(times == 3'd12)
+			if(times == 8'd200)
 				n_state = s3;
 			else
 				n_state = s2;
@@ -85,8 +85,8 @@ begin
 		begin
 			w_status = 2'd1;
 			result = 2'd2;
-			top_input[((8'd16*counter) - 16'd32) +: 16] = input_data[15:0];
-			top_input[((8'd16*counter) - 16'd16) +: 16] = input_data[31:16];
+			top_input[((8'd32*counter) - 16'd17) : ((8'd16*counter) - 16'd32)] = input_data[15:0];
+			top_input[((8'd32*counter) - 16'd1) : ((8'd16*counter) - 16'd16)] = input_data[31:16];
 			timer_start = 1'd0;
 		end		
 		s2:
@@ -120,16 +120,16 @@ end
 
 always@(posedge clk or negedge rst_n) begin // count calculation cycle
 	if(!rst_n) begin
-		times <= 3'd0;
+		times <= 8'd0;
 		top_input_r <= 3136'd0;
 	end
 	else begin
 		if(timer_start) begin
-			times <= times +3'd1;
+			times <= times + 8'd1;
 			top_input_r <= top_input;
 		end
 		else begin
-			times <= 3'd0;
+			times <= 8'd0;
 			top_input_r <= top_input;
 		end
 	end
